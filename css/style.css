@@ -1,0 +1,232 @@
+.smooth-scroll{
+  scroll-behavior: smooth;
+}
+.fw-600{
+  font-weight: 600;
+}
+.corMapCont{
+  background-color: #FFDF74!important;
+}
+#intro-home{
+  background-image: url(../assets/banner-home-1.jpg)!important;
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+#fotoFundobtn1{
+  background-image: url("../assets/bg-destinos-exclusivos.jpg");!important;
+}
+#fotoFundobtn2{
+  background-image: url("../assets/btn-destinos-exclusivos.jpg");!important;
+}
+.carousel-multi-item-customHome .controls-top{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+
+.tamLogo{
+  height: 35px;
+}
+
+.fz-larger{
+  font-size: larger;
+}
+
+.carousel-multi-item-customHome .btn-floating-carouselControls-left{
+  margin-left: -55px;
+  margin-bottom: -20px;
+}
+.carousel-multi-item-customHome .btn-floating-carouselControls-right{
+  margin-right: -55px;
+  margin-bottom: -20px;
+}
+.bg-azul-escuro{
+  background-color: #0300ff !important;
+  color: #ffffff !important;
+}
+.bg-pretoTrasnparente{
+  background-color: #00000070;!important;
+}
+.bg-preto{
+  background-color: #080e3380!important
+}
+.bg-footer{
+  background-color: #354159!important;
+}
+
+.corFonte {
+  color: #212529;
+}
+
+.grossuraFonte{
+  font-weight: bold;
+}
+#video-intro-monteSeuPacote{
+  transform: translateX(-50%);
+}
+#video-intro-destinos{
+  transform: translateX(-54%) translateY(-31%);
+}
+
+/*Áreas de Atuação - Modais de Contato Direcionadas*/
+@media (max-width: 425px) {
+  .modal-dialog.cascading-modal{
+    margin-top: 15% !important;
+  }
+  #contato iframe{
+    height: 200px!important;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .modal-dialog.cascading-modal{
+    margin-top: 11% !important;
+  }
+  #contato iframe{
+    height: 200px!important;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .modal-dialog.cascading-modal{
+    margin-top: 7% !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .modal-dialog.cascading-modal{
+    margin-top: 5% !important;
+  }
+}
+@media (min-width: 1026px) and (max-width: 1920px) {
+  .modal-dialog.cascading-modal{
+    margin-top: 4% !important;
+  }
+}
+@media (min-width: 1921px){
+  .modal-dialog.cascading-modal{
+    margin-top: 3% !important;
+  }
+}
+#contato .modal-header{
+  background-color: #C28A00;
+}
+.btn-outline-modal-contato{
+  border: 2px solid #040033!important;
+  background-color: transparent!important;
+  color: #0C8BCC!important;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.btn-azul{
+  background-color: #0C8BCC!important;
+  color: #ffffff!important;
+}
+.btn-footer{
+  background-color: transparent!important;
+  color: black!important;
+}
+.bg-amarelo{
+  background-color: #ffe9a0!important;
+}
+.fz-18{
+  font-size: 18px;
+}
+.fw-300{
+  font-weight: 300;
+}
+.fz-1p4rem{
+  font-size: 1.4rem;
+}
+.fz-1p2rem{
+  font-size: 1.2rem;
+}
+.fz-1p3rem{
+  font-size: 1.3rem;
+}
+.fw-500{
+  font-weight: 500!important;
+}
+.fz-3rem{
+  font-size: 3rem!important;
+}
+.fz-1p5rem{
+  font-size: 1.5rem!important;
+}
+#conheca{
+  display: block;
+  content: " ";
+  margin-top: -65px;
+  height: 65px;
+  visibility: hidden;
+}
+
+
+
+
+
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 650px) {
+  header .jarallax h1 {
+    margin-bottom: .5rem !important;
+  }
+  header .jarallax h5 {
+    margin-bottom: .5rem !important;
+  }
+}
+
+@media (min-width: 660px) and (max-width: 700px) {
+  header .jarallax h1 {
+    margin-bottom: 1.5rem !important;
+  }
+  header .jarallax h5 {
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #080e33 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: rgba(211, 215, 207, 0.35);
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #7283A7 !important;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #7283A7!important;
+  }
+}
+
+footer.page-footer {
+  background-color: #354159;
+}
+
+@media (max-width: 450px) {
+  .display-3 {
+    font-size: 3rem;
+  }
+}
