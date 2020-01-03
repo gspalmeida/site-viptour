@@ -1,3 +1,9 @@
+.carousel-control-prev-customPosition{
+  left: -25px;
+}
+.carousel-control-next-customPosition{
+  right: -25px;
+}
 .smooth-scroll{
   scroll-behavior: smooth;
 }
@@ -35,20 +41,12 @@
   font-size: larger;
 }
 
-.carousel-multi-item-customHome .btn-floating-carouselControls-left{
-  margin-left: -55px;
-  margin-bottom: -20px;
-}
-.carousel-multi-item-customHome .btn-floating-carouselControls-right{
-  margin-right: -55px;
-  margin-bottom: -20px;
-}
 .bg-azul-escuro{
   background-color: #0300ff !important;
   color: #ffffff !important;
 }
 .bg-pretoTrasnparente{
-  background-color: #00000070;!important;
+  background-color: rgba(0, 0, 0, 0.44);!important;
 }
 .bg-preto{
   background-color: #080e3380!important
@@ -108,11 +106,52 @@
     margin-top: 3% !important;
   }
 }
+@media(max-width: 370px) {
+  .titulo-intro {
+    font-size: 2.5rem !important;
+  }
+
+  .texto-intro {
+    font-size: .9rem !important;
+  }
+
+  .fz-10-responsive {
+    font-size: 10px !important;
+  }
+
+  .fz-1p5-responsive {
+    font-size: 1.5rem !important;
+  }
+
+  .fz-p9-responsive {
+    font-size: .9rem !important;
+  }
+
+  .fz-0p7 {
+    font-size: 0.7rem !important;
+  }
+
+  .fz-1rem-responsive {
+    font-size: 1rem !important;
+  }
+  .fz-2rem-responsive{
+    font-size: 2rem!important;
+  }
+  .margem-left{
+    margin-left: 0!important;
+  }
+}
+
+@media(min-width: 768px){
+  .w-50-responsive{
+    width: 50%!important;
+  }
+}
 #contato .modal-header{
   background-color: #C28A00;
 }
 .btn-outline-modal-contato{
-  border: 2px solid #040033!important;
+  border: 2px solid #0C8BCC!important;
   background-color: transparent!important;
   color: #0C8BCC!important;
   font-size: 1rem;
@@ -148,10 +187,10 @@
   font-weight: 500!important;
 }
 .fz-3rem{
-  font-size: 3rem!important;
+  font-size: 3rem;
 }
 .fz-1p5rem{
-  font-size: 1.5rem!important;
+  font-size: 1.5rem;
 }
 #conheca{
   display: block;
@@ -159,6 +198,12 @@
   margin-top: -65px;
   height: 65px;
   visibility: hidden;
+}
+@media(min-width: 700px) {
+  nav
+}
+.size-25rem{
+  font-size: 2.5rem!important;
 }
 
 
@@ -169,19 +214,16 @@
 @media (max-width: 740px) {
   html,
   body,
-  header,
-  .jarallax {
-    height: 100vh;
-  }
+  header
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
   html,
   body,
-  header,
-  .jarallax {
+  header
+  /*.jarallax {
     height: 100vh;
-  }
+  }*/
 }
 
 @media (min-width: 560px) and (max-width: 650px) {
@@ -207,17 +249,17 @@
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: rgba(211, 215, 207, 0.35);
+  background: #080e3380!important;
 }
 
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
-    background: #7283A7 !important;
+    background: #080e33 !important;
   }
 }
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
-    background: #7283A7!important;
+    background: #080e3380!important;
   }
 }
 
